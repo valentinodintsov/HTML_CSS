@@ -1,0 +1,24 @@
+html, body {
+    font-family: 'PT Sans Serif','Helvetica','Arial',sans-serif;
+    font-size: 16pt;
+    line-height: 1.42857;
+     color: #333;
+    background-color: #f6f6f6;
+    width: 100%;
+    min-height: 100%;
+}
+
+#header_top {
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+#img_product{
+    width: 200px;
+    height: 200px;
+}
+
+#img_product_cat{
+    width: 400px;
+    height: 400px;
+}
