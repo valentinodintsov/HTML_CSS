@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашняя работа к уроку №3 "Базовый курс HTML/CSS"</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h3>ДОМАШНЕЕ ЗАДАНИЕ №4</h3>
+    <div class="header_logo">
+        <h1>
+            <img src="images/logo.png" alt="logo" style="width: 300px;" onclick="location.href = 'index.html';">
+            МОЙ ИНТЕРНЕТ МАГАЗИН
+        </h1>
+    </div>
+    <nav id="menu_global">
+        <ul id="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="">Каталог</a>
+                <ul>
+                    <li><a href="snowblower.html">Снегоуборщик</a></li>
+                    <li><a href="shredder.html">Измельчитель</a></li>
+                    <li><a href="table.html">Таблица</a></li>
+                </ul>
+            </li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+<main>
+    <article>
+        <h3><a name="dde_ste_160"></a>Снегоуборщик электрический DDE STE160</h3>
+        <a href="images/dde_ste_160.jpg" target="_blank">
+            <img src="images/dde_ste_160.jpg" alt="Снегоуборщик электрический DDE STE160" class="img_product_cat"></a>
+        <h3>Описание товара</h3>
+        <p class="briefdescription">Снегоуборщик предназначен для уборки территорий от&nbsp;снега вокруг домов, гаражей, расчистки паркингов,
+            дорожек, тротуаров в&nbsp;городе и&nbsp;на&nbsp;даче, а&nbsp;также других открытых пространств, применяется
+            исключительно на&nbsp;ровных поверхностях с&nbsp;твёрдым покрытием.
+        </p>
+
+
+        <table>
+            <caption><h3>Характеристики товара</h3></caption>
+            <thead>
+                <tr>
+                    <th colspan="3">Сводная таблица</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_to_right">Тип</td>
+                    <td>снегоуборщик</td>
+                </tr>
+                <tr>
+                    <td class="td_to_right">Модель</td>
+                    <td>DDE STE160</td>
+                </tr>
+                <tr>
+                    <td class="td_to_right">Основной цвет</td>
+                    <td rowspan="2">&nbsp;чёрный, красный</td>
+                </tr>
+                <tr>
+                    <td class="td_to_right">Система шнеков</td>
+                </tr>
+                <tr>
+                    <td class="td_to_right">Дальность выброса снега</td>
+                    <td>3 м</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="td_to_right">Мощность двигателя, Количество колес</td>
+                    <td>1600 Вт</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Подробное описание товара</h3>
+        <p class="description">Снегоуборщик предназначен для уборки территорий от&nbsp;снега вокруг домов, гаражей, расчистки паркингов,
+            дорожек, тротуаров в&nbsp;городе и&nbsp;на&nbsp;даче, а&nbsp;также других открытых пространств, применяется
+            исключительно на&nbsp;ровных поверхностях с&nbsp;твёрдым покрытием.
+        </p>
+    </article>
+    <hr>
+</main>
+
+<footer id="page_footer">
+    <section>&copy; Все права защищены</section>
+    <section>&copy; 2020, Валентин Одинцов</section>
+    <section>&copy; <a href="mailto:support@myeshop.da">support@myeshop.da</a></section>
+</footer>
+
+</body>
+</html>
