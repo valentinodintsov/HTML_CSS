@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашняя работа к уроку №3 "Базовый курс HTML/CSS"</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h3>ДОМАШНЕЕ ЗАДАНИЕ №5</h3>
+    <div class="header_logo">
+        <h1>
+            <img src="images/logo.png" alt="logo" style="width: 300px;" onclick="location.href = 'index.html';">
+            МОЙ ИНТЕРНЕТ МАГАЗИН
+        </h1>
+    </div>
+    <nav id="menu_global">
+        <ul id="menu">
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="catalog.html">Каталог</a>
+                <ul>
+                    <li><a href="snowblower.html">Снегоуборщик</a></li>
+                    <li><a href="shredder.html">Измельчитель</a></li>
+                    <li><a href="table.html">Таблица</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">Главная</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+<main>
+    <article>
+        <h2>Каталог</h2>
+        <div class="catalogProductsContainer">
+            <div class="catalogProductItem">
+                <a href="snowblower.html"><img src="images/dde_ste_160.jpg" alt="Снегоуборщик электрический DDE STE160"></a>
+                <div><a href="snowblower.html">Снегоуборщик электрический DDE STE160</a></div>
+                <div>6 490 р.</div>
+                <a href="snowblower.html">Подробнее</a>
+            </div>
+
+            <div class="catalogProductItem">
+                <a href="shredder.html"><img src="images/BOSCH_AXT_Rapid_2000.jpg" alt="Измельчитель электрический BOSCH AXT Rapid 2000" class="catalogImg"></a>
+                <div><a href="shredder.html">Снегоуборщик электрический DDE STE160</a></div>
+                <div>16 649 р.</div>
+                <a href="shredder.html">Подробнее</a>
+            </div>
+
+            <div class="catalogProductItem">
+                <a href="snowblower.html"><img src="images/dde_ste_160.jpg" alt="Снегоуборщик электрический DDE STE160"></a>
+                <div><a href="snowblower.html">Снегоуборщик электрический DDE STE160</a></div>
+                <div>6 490 р.</div>
+                <a href="snowblower.html">Подробнее</a>
+            </div>
+
+            <div class="catalogProductItem">
+                <a href="shredder.html"><img src="images/BOSCH_AXT_Rapid_2000.jpg" alt="Измельчитель электрический BOSCH AXT Rapid 2000" class="catalogImg"></a>
+                <div><a href="shredder.html">Снегоуборщик электрический DDE STE160</a></div>
+                <div>16 649 р.</div>
+                <a href="shredder.html">Подробнее</a>
+            </div>
+        </div>
+    </article>
+    <hr>
+</main>
+
+<footer id="page_footer">
+    <p>&copy; Все права защищены<br>
+        &copy; 2020, Валентин Одинцов<br>
+        &copy; <a href="mailto:support@myeshop.da">support@myeshop.da</a></p>
+</footer>
+
+</body>
+</html>

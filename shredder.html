@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашняя работа к уроку №3 "Базовый курс HTML/CSS"</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h3>ДОМАШНЕЕ ЗАДАНИЕ №5</h3>
+    <div class="header_logo">
+        <h1>
+            <img src="images/logo.png" alt="logo" style="width: 300px;" onclick="location.href = 'index.html';">
+            МОЙ ИНТЕРНЕТ МАГАЗИН
+        </h1>
+    </div>
+    <nav id="menu_global">
+        <ul id="menu">
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="catalog.html">Каталог</a>
+                <ul>
+                    <li><a href="snowblower.html">Снегоуборщик</a></li>
+                    <li><a href="shredder.html">Измельчитель</a></li>
+                    <li><a href="table.html">Таблица</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">Главная</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+<main>
+    <article>
+        <div class="productContainer">
+            <h3><a name="BOSCH_AXT_Rapid_2000"></a>Измельчитель электрический BOSCH AXT Rapid 2000</h3>
+            <a href="images/BOSCH_AXT_Rapid_2000.jpg" target="_blank"><img src="images/BOSCH_AXT_Rapid_2000.jpg" alt="Измельчитель электрический BOSCH AXT Rapid 2000" class="img_product_cat"></a>
+            <div  class="productContBrief">
+                <h3>Описание товара</h3>
+                <p class="briefdescription">Садовый измельчитель мусора Bosch AXT 2000&nbsp;RAPID&nbsp;&mdash; прекрасный помощник для наведения порядка
+                    на&nbsp;участке. Листья, сучки, остатки корней легко утилизируются, либо могут послужить в&nbsp;измельченном
+                    виде удобрением для грядок. Данную модель отличает современный дизайн воронки со&nbsp;встроенным толкателем,
+                    заметно увеличивающие скорость работы.
+                </p>
+                <a href="#" class="button_buy">Купить</a>
+            </div>
+        </div>
+        <h3>Характеристики товара</h3>
+
+        <!-- Считаю свой вариант более эстетичным, чем таблица -->
+        <ul>
+            <li>Система измельчения - ножевая</li>
+            <li>Материал корпуса - пластик</li>
+            <li>Пропускная способность - 80 кг/ч</li>
+            <li>Диаметр веток - 35 мм</li>
+            <li>Скорость вращения - 3650 об/мин</li>
+            <li>Особенности - 11.5 кг</li>
+            <li>Тип двигателя - электрический</li>
+            <li>Мощность электрического двигателя - 2 кВт</li>
+            <li>Запуск двигателя - автоматический</li>
+            <li>Напряжение - 220 В</li>
+            <li>Количество колес - 2</li>
+            <li>Тип двигателя - электрический</li>
+            <li>Тип питания - сеть 220 В</li>
+        </ul>
+        <h3>Подробное описание товара</h3>
+        <p class="description">Садовый измельчитель мусора Bosch AXT 2000&nbsp;RAPID&nbsp;&mdash; прекрасный помощник для наведения порядка
+            на&nbsp;участке. Листья, сучки, остатки корней легко утилизируются, либо могут послужить в&nbsp;измельченном
+            виде удобрением для грядок. Данную модель отличает современный дизайн воронки со&nbsp;встроенным толкателем,
+            заметно увеличивающие скорость работы.
+        </p>
+    </article>
+    <hr>
+</main>
+
+<footer id="page_footer">
+    <p>&copy; Все права защищены<br>
+        &copy; 2020, Валентин Одинцов<br>
+        &copy; <a href="mailto:support@myeshop.da">support@myeshop.da</a></p>
+</footer>
+
+</body>
+</html>
